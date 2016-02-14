@@ -1,5 +1,8 @@
 package chapterTwo;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class NodeUtils {
 
 	/**
@@ -15,8 +18,7 @@ public class NodeUtils {
 	}
 
 	/**
-	 * printNode prints the values of the linked list of nodes. Ex: 1 -> 2 -> 3
-	 * -> 4
+	 * printNode prints the values of the current node in the form 1 ->
 	 */
 	public void printNode(Node n, StringBuffer buffer) {
 		if (n.next != null)
