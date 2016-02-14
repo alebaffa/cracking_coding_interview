@@ -1,4 +1,4 @@
-package cracking_coding_interview.chapterOne;
+package chapterOne;
 
 public class MatrixZero {
 
