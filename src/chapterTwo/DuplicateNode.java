@@ -19,7 +19,7 @@ public class DuplicateNode {
 			if (!map.containsKey(n.value)) {
 				result = n;
 				map.put(result.value, true);
-				utils.printNode(result, n, buffer);
+				utils.printNode(n, buffer);
 
 			} else {
 				result.next = n.next;

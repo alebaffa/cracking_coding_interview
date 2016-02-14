@@ -18,11 +18,11 @@ public class NodeUtils {
 	 * printNode prints the values of the linked list of nodes. Ex: 1 -> 2 -> 3
 	 * -> 4
 	 */
-	public void printNode(Node result, Node n, StringBuffer buffer) {
+	public void printNode(Node n, StringBuffer buffer) {
 		if (n.next != null)
-			buffer.append(result.value + " -> ");
+			buffer.append(n.value + " -> ");
 		else
-			buffer.append(result.value);
+			buffer.append(n.value);
 	}
 
 	/**

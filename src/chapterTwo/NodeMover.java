@@ -4,6 +4,7 @@ public class NodeMover {
 
 	NodeUtils utils = new NodeUtils();
 
+	// print the value of the i-th node from the last.
 	public String printNthToLastNode(int[] nodes, int i) {
 		Node head = utils.createLinkedList(nodes);
 		Node n1 = head;
